@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <script>
+        function bigImg(x) {
+          x.style.height = "600px";
+          x.style.width = "600px";
+        }
+        
+        function normalImg(x) {
+          x.style.height = "100px";
+          x.style.width = "100px";
+        }
+        </script>
+        
+</head>
+<body>
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images.jfif" width="100" height="100"/>
+</body>
+</html>
